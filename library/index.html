@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://medical-banksy.miakiss.com/">
+    <title>図解・動画ライブラリ | 医療のカラクリ</title>
+    <meta name="description" content="30秒で要点をつかめる図解コンテンツと、SNSで話題のショート動画。医療知識を分かりやすく学べます。">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="/" style="text-decoration: none; color: inherit;">医療のカラクリ</a></div>
+            
+            <nav id="desktopNav">
+                <a href="/about.html">医療のカラクリとは</a>
+                <a href="/cases/">ケーススタディ</a>
+                <a href="/symptoms/">症状から探す</a>
+                <a href="/prevention/">予防レベルで学ぶ</a>
+                <a href="/library/" style="color: #2563eb;">図解・動画</a>
+                <a href="/faq.html">医療費Q&A</a>
+            </nav>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/about.html">医療のカラクリとは</a>
+            <a href="/cases/">ケーススタディ</a>
+            <a href="/symptoms/">症状から探す</a>
+            <a href="/prevention/">予防レベルで学ぶ</a>
+            <a href="/library/">図解・動画</a>
+            <a href="/faq.html">医療費Q&A</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);">
+        <div class="hero-container">
+            <div class="hero-badge">Library</div>
+            <h1>📚 図解・動画ライブラリ</h1>
+            <p class="hero-subtitle">30秒で要点をつかめる図解と、SNSで話題の動画コンテンツ</p>
+        </div>
+    </section>
+
+    <!-- Filter Tabs -->
+    <section style="background: white; padding: 40px 0;">
+        <div class="container">
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <button class="btn-primary" style="background: #2563eb;">すべて</button>
+                <a href="/library/videos.html" class="btn-secondary">動画のみ</a>
+                <a href="/library/infographics.html" class="btn-secondary">図解のみ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section>
+        <div class="container">
+            <h2>📺 最新動画</h2>
+            <p class="section-subtitle">SNSで話題のショート動画</p>
+            
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZCQ3AWIBqfM?si=Ev_-HAxu27f9V5XH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #fef3c7; color: #d97706;">2次予防</span>
+                        </div>
+                        <div class="video-title">社会保障のカラクリ</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 10.2万回</span>
+                            <span>📅 2025.03.15</span>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=ZCQ3AWIBqfM" target="_blank" class="btn-text" style="font-size: 14px;">YouTubeで見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">💊</span>
+                        <span class="video-duration">0:50</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #fecaca; color: #dc2626;">3次予防</span>
+                        </div>
+                        <div class="video-title">市販の痛み止め、どう選ぶ？</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 8.5万回</span>
+                            <span>📅 2025.03.12</span>
+                        </div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">🎯</span>
+                        <span class="video-duration">0:30</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #dbeafe; color: #2563eb;">0次予防</span>
+                        </div>
+                        <div class="video-title">0次予防って何？30秒で解説</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 12.0万回</span>
+                            <span>📅 2025.03.10</span>
+                        </div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">🌸</span>
+                        <span class="video-duration">3:20</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">解説動画</span>
+                            <span class="badge-category">症状</span>
+                        </div>
+                        <div class="video-title">花粉症の薬、ガイドラインではどう選ぶ？</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 6.5万回</span>
+                            <span>📅 2025.03.08</span>
+                        </div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">🧠</span>
+                        <span class="video-duration">0:55</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #dcfce7; color: #16a34a;">1次予防</span>
+                        </div>
+                        <div class="video-title">メンタルヘルス、ストレスチェックの活用</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 9.2万回</span>
+                            <span>📅 2025.03.05</span>
+                        </div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">💰</span>
+                        <span class="video-duration">0:40</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-category">医療費</span>
+                        </div>
+                        <div class="video-title">医療費を抑える5つのコツ</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 15.3万回</span>
+                            <span>📅 2025.03.01</span>
+                        </div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/library/videos.html" class="btn-primary">すべての動画を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infographics Section -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>📊 図解コンテンツ</h2>
+            <p class="section-subtitle">30秒で要点をつかめる図解</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                        <span class="card-badge">新着</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-category">症状</span>
+                        </div>
+                        <div class="card-title">風邪の症状、受診の目安は?</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-level" style="background: #fef3c7; color: #d97706;">2次予防</span>
+                        </div>
+                        <div class="card-title">花粉症の市販薬の選び方</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-category">医療費</span>
+                        </div>
+                        <div class="card-title">医療費を抑える5つのコツ</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-level" style="background: #dbeafe; color: #2563eb;">0次予防</span>
+                        </div>
+                        <div class="card-title">0次予防から3次予防まで</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-category">症状</span>
+                        </div>
+                        <div class="card-title">頭痛のタイプと対処法</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-level" style="background: #dcfce7; color: #16a34a;">1次予防</span>
+                        </div>
+                        <div class="card-title">腸活の基本</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-level" style="background: #dbeafe; color: #2563eb;">0次予防</span>
+                        </div>
+                        <div class="card-title">自律神経って何？</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span class="badge-category">症状</span>
+                        </div>
+                        <div class="card-title">AGAの治療ガイドライン</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/library/infographics.html" class="btn-primary">すべての図解を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter by Category -->
+    <section>
+        <div class="container">
+            <h2>カテゴリー別に探す</h2>
+            
+            <div class="prevention-grid">
+                <a href="?category=0次予防" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #f59e0b; color: white;">0次予防</div>
+                    <div class="prevention-title">自分を知る</div>
+                    <div class="prevention-desc">家族歴、生活習慣チェック、自律神経に関するコンテンツ</div>
+                </a>
+
+                <a href="?category=1次予防" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #16a34a; color: white;">1次予防</div>
+                    <div class="prevention-title">病気を防ぐ</div>
+                    <div class="prevention-desc">食事、運動、ストレス対策に関するコンテンツ</div>
+                </a>
+
+                <a href="?category=2次予防" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #2563eb; color: white;">2次予防</div>
+                    <div class="prevention-title">早く気づく</div>
+                    <div class="prevention-desc">受診の目安、セルフチェックに関するコンテンツ</div>
+                </a>
+
+                <a href="?category=3次予防" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #db2777; color: white;">3次予防</div>
+                    <div class="prevention-title">上手に治す</div>
+                    <div class="prevention-desc">市販薬の選び方、リハビリに関するコンテンツ</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SNS Links -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>SNSでも配信中</h2>
+            <p class="section-subtitle">最新情報はSNSでもチェック！</p>
+            
+            <div class="case-grid">
+                <div class="case-card">
+                    <div style="font-size: 48px; margin-bottom: 16px;">📺</div>
+                    <div class="case-title">YouTube</div>
+                    <div class="case-comparison">
+                        ショート動画と解説動画を毎週配信
+                    </div>
+                    <a href="#" class="btn-primary" style="margin-top: 16px; display: inline-block;">チャンネル登録 →</a>
+                </div>
+
+                <div class="case-card">
+                    <div style="font-size: 48px; margin-bottom: 16px;">📷</div>
+                    <div class="case-title">Instagram</div>
+                    <div class="case-comparison">
+                        図解とリールで医療情報をシェア
+                    </div>
+                    <a href="#" class="btn-primary" style="margin-top: 16px; display: inline-block;">フォロー →</a>
+                </div>
+
+                <div class="case-card">
+                    <div style="font-size: 48px; margin-bottom: 16px;">🐦</div>
+                    <div class="case-title">TikTok</div>
+                    <div class="case-comparison">
+                        30秒動画で医療知識を簡単に
+                    </div>
+                    <a href="#" class="btn-primary" style="margin-top: 16px; display: inline-block;">フォロー →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <section>
+        <div class="container">
+            <div class="disclaimer">
+                <div class="disclaimer-title">⚠️ 免責事項</div>
+                <div class="disclaimer-text">
+                    このサイトで提供される情報は、医療行為ではありません。診療ガイドラインに準拠した一般的な情報を提供するものであり、個別の診断や治療を目的としたものではありません。気になる症状がある場合や、医療についてご不安がある場合は、必ず医療機関を受診してください。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="/about.html">医療のカラクリとは</a></li>
+                        <li><a href="/symptoms/">症状から探す</a></li>
+                        <li><a href="/prevention/">予防レベルで学ぶ</a></li>
+                        <li><a href="/cases/">ケーススタディ</a></li>
+                        <li><a href="/library/">図解・動画</a></li>
+                        <li><a href="/faq.html">医療費Q&A</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>コンテンツ</h4>
+                    <ul>
+                        <li><a href="/library/videos.html">動画一覧</a></li>
+                        <li><a href="/library/infographics.html">図解一覧</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>情報</h4>
+                    <ul>
+                        <li><a href="#">制作ポリシー</a></li>
+                        <li><a href="#">免責事項</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>SNS</h4>
+                    <div style="display: flex; gap: 16px; margin-top: 8px;">
+                        <a href="#" style="font-size: 24px;">📺</a>
+                        <a href="#" style="font-size: 24px;">📷</a>
+                        <a href="#" style="font-size: 24px;">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 医療のカラクリ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Bar -->
+    <div class="mobile-bottom-bar">
+        <div class="mobile-bottom-bar-grid">
+            <a href="/symptoms/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">⚡</span>
+                <span>症状</span>
+            </a>
+            <a href="/prevention/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">🎯</span>
+                <span>予防</span>
+            </a>
+            <a href="/library/" class="mobile-bottom-btn" style="color: #2563eb;">
+                <span style="font-size: 20px;">📊</span>
+                <span>図解・動画</span>
+            </a>
+            <a href="/cases/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">💡</span>
+                <span>ケース</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
+

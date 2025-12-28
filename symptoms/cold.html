@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://medical-banksy.miakiss.com/">
+    <title>風邪・発熱 | 症状から探す | 医療のカラクリ</title>
+    <meta name="description" content="風邪（急性気道感染症）の症状、受診の目安、市販薬の選び方をガイドラインに基づいて解説。適切な判断で医療費も抑えられます。">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="/" style="text-decoration: none; color: inherit;">医療のカラクリ</a></div>
+            
+            <nav id="desktopNav">
+                <a href="/about.html">医療のカラクリとは</a>
+                <a href="/cases/">ケーススタディ</a>
+                <a href="/symptoms/" style="color: #2563eb;">症状から探す</a>
+                <a href="/prevention/">予防レベルで学ぶ</a>
+                <a href="/library/">図解・動画</a>
+                <a href="/faq.html">医療費Q&A</a>
+            </nav>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/about.html">医療のカラクリとは</a>
+            <a href="/cases/">ケーススタディ</a>
+            <a href="/symptoms/">症状から探す</a>
+            <a href="/prevention/">予防レベルで学ぶ</a>
+            <a href="/library/">図解・動画</a>
+            <a href="/faq.html">医療費Q&A</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+        <div class="hero-container">
+            <div class="hero-badge">急性気道感染症（風邪）</div>
+            <h1>🤒 風邪・発熱</h1>
+            <p class="hero-subtitle">診療ガイドラインに基づく受診の目安と対処法</p>
+        </div>
+    </section>
+
+    <!-- Quick Summary -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>30秒で要点</h2>
+            
+            <div class="prevention-card" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); max-width: 900px; margin: 0 auto;">
+                <div class="prevention-desc" style="font-size: 18px; line-height: 2;">
+                    <strong>風邪（急性気道感染症）は、ほとんどがウイルス性で自然に治ります。</strong><br>
+                    抗菌薬（抗生物質）は効果がありません。<br>
+                    発熱、咳、のどの痛みには適切な対症療法（解熱鎮痛薬、咳止め、去痰薬など）で対応します。<br>
+                    <strong style="color: #dc2626;">警告症状がある場合は、すぐに受診してください。</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Level 0: 0次予防 -->
+    <section id="level-0" style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="tab-section-header">
+                    <span class="tab-section-badge level-0">0次予防</span>
+                    <span class="tab-section-title">風邪をひきやすい体質を知る</span>
+                </div>
+                
+                <div class="tab-content-grid">
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">🧬</div>
+                        <div class="tab-content-card-title">自律神経と免疫力</div>
+                        <div class="tab-content-card-desc">
+                            自律神経のバランスが乱れると、免疫力が低下し風邪をひきやすくなります。交感神経と副交感神経のバランスを整えることが予防の第一歩です。
+                        </div>
+                    </div>
+
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">😰</div>
+                        <div class="tab-content-card-title">ストレスと風邪の関係</div>
+                        <div class="tab-content-card-desc">
+                            慢性的なストレスは免疫細胞の働きを抑制します。「忙しい時期に風邪をひく」のは偶然ではなく、ストレスによる免疫低下が原因です。
+                        </div>
+                    </div>
+
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">📋</div>
+                        <div class="tab-content-card-title">自分の傾向を知る</div>
+                        <div class="tab-content-card-desc">
+                            • 季節の変わり目に風邪をひきやすい<br>
+                            • 睡眠不足が続くと体調を崩す<br>
+                            • ストレスが溜まると風邪をひく<br>
+                            自分のパターンを把握しましょう。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Level 1: 1次予防 -->
+    <section id="level-1" style="background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="tab-section-header">
+                    <span class="tab-section-badge level-1">1次予防</span>
+                    <span class="tab-section-title">セルフケアで風邪を予防する</span>
+                </div>
+                
+                <div class="tab-content-grid">
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">😴</div>
+                        <div class="tab-content-card-title">十分な睡眠</div>
+                        <div class="tab-content-card-desc">
+                            睡眠不足は免疫力を大幅に低下させます。7〜8時間の質の良い睡眠を確保しましょう。寝る前のスマホは避け、規則正しい睡眠リズムを。
+                        </div>
+                    </div>
+
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">🍊</div>
+                        <div class="tab-content-card-title">バランスの良い食事</div>
+                        <div class="tab-content-card-desc">
+                            ビタミンC、ビタミンD、亜鉛を含む食品を積極的に摂りましょう。腸内環境を整える発酵食品も免疫力アップに効果的です。
+                        </div>
+                    </div>
+
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">🧴</div>
+                        <div class="tab-content-card-title">手洗い・うがい</div>
+                        <div class="tab-content-card-desc">
+                            外出から帰ったら必ず手洗い・うがいを。手洗いは20秒以上、石鹸を使って指の間や爪の間もしっかり洗いましょう。
+                        </div>
+                    </div>
+
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">💧</div>
+                        <div class="tab-content-card-title">適度な加湿</div>
+                        <div class="tab-content-card-desc">
+                            乾燥した環境ではウイルスが活発になり、のどの粘膜も弱くなります。室内の湿度は50〜60%を目安に保ちましょう。
+                        </div>
+                    </div>
+
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">🏃</div>
+                        <div class="tab-content-card-title">適度な運動</div>
+                        <div class="tab-content-card-desc">
+                            適度な運動は免疫力を高めます。ただし、激しすぎる運動は逆効果。ウォーキングやヨガなど、無理のない運動を習慣に。
+                        </div>
+                    </div>
+
+                    <div class="tab-content-card">
+                        <div class="tab-content-card-icon">💉</div>
+                        <div class="tab-content-card-title">予防接種</div>
+                        <div class="tab-content-card-desc">
+                            インフルエンザの予防接種は毎年受けましょう。流行前（10〜11月頃）の接種がおすすめです。高齢者や持病のある方は特に重要。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Level 2: 2次予防 -->
+    <section id="level-2" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="tab-section-header">
+                    <span class="tab-section-badge level-2">2次予防</span>
+                    <span class="tab-section-title">受診の目安を知る</span>
+                </div>
+
+                <!-- Symptoms -->
+                <div style="margin-bottom: 48px;">
+                    <h3 style="font-size: 20px; margin-bottom: 16px;">風邪の症状は？</h3>
+                    <p style="color: #6b7280; margin-bottom: 24px;">急性気道感染症の病型分類（厚生労働省「抗菌薬の適正使用」より）</p>
+                    
+                    <div class="case-grid">
+                        <div class="case-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">👃</div>
+                            <div class="case-title">感冒（いわゆる風邪）</div>
+                            <div class="case-comparison">
+                                • 鼻水・鼻づまり<br>
+                                • くしゃみ<br>
+                                • のどの軽い痛み<br>
+                                • 軽い咳<br>
+                                • 微熱
+                            </div>
+                        </div>
+
+                        <div class="case-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">🤒</div>
+                            <div class="case-title">急性鼻副鼻腔炎</div>
+                            <div class="case-comparison">
+                                • 鼻水・鼻づまり<br>
+                                • 顔面痛・頭痛<br>
+                                • 嗅覚低下<br>
+                                • 後鼻漏（鼻水がのどに流れる）
+                            </div>
+                        </div>
+
+                        <div class="case-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">😷</div>
+                            <div class="case-title">急性咽頭炎</div>
+                            <div class="case-comparison">
+                                • のどの痛み<br>
+                                • 発熱<br>
+                                • のどの赤み<br>
+                                • 扁桃の腫れ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- When to See Doctor -->
+                <div>
+                    <h3 style="font-size: 20px; margin-bottom: 16px;">受診の目安</h3>
+                    <p style="color: #6b7280; margin-bottom: 24px;">以下の警告症状がある場合はすぐに受診してください</p>
+                    
+                    <div class="case-grid">
+                        <div class="case-card" style="border-left: 4px solid #dc2626;">
+                            <div style="font-size: 48px; margin-bottom: 16px; color: #dc2626;">⚠️</div>
+                            <div class="case-title">すぐに受診すべき症状</div>
+                            <div class="case-comparison">
+                                • 呼吸困難、息切れ<br>
+                                • 高熱（38.5℃以上）が3日以上続く<br>
+                                • 顔色が悪い、唇が紫色<br>
+                                • 意識がもうろうとする<br>
+                                • 水分が取れない<br>
+                                • 激しい頭痛<br>
+                                • 胸の痛み
+                            </div>
+                        </div>
+
+                        <div class="case-card" style="border-left: 4px solid #f59e0b;">
+                            <div style="font-size: 48px; margin-bottom: 16px; color: #f59e0b;">📋</div>
+                            <div class="case-title">診察を検討すべき場合</div>
+                            <div class="case-comparison">
+                                • 症状が7〜10日以上続く<br>
+                                • 症状が悪化している<br>
+                                • 高齢者や基礎疾患がある<br>
+                                • 咳に血が混じる<br>
+                                • 耳の痛み（中耳炎の可能性）
+                            </div>
+                        </div>
+
+                        <div class="case-card" style="border-left: 4px solid #16a34a;">
+                            <div style="font-size: 48px; margin-bottom: 16px; color: #16a34a;">🏠</div>
+                            <div class="case-title">セルフケアで対応可能</div>
+                            <div class="case-comparison">
+                                • 軽い鼻水、咳<br>
+                                • 微熱（37℃台）<br>
+                                • 軽いのどの痛み<br>
+                                • 症状が改善傾向<br>
+                                • 水分・食事が取れている<br>
+                                • 普段通り生活できる
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Level 3: 3次予防 -->
+    <section id="level-3" style="background: linear-gradient(135deg, #fecaca 0%, #fca5a5 100%);">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="tab-section-header">
+                    <span class="tab-section-badge level-3">3次予防</span>
+                    <span class="tab-section-title">風邪を上手に治す</span>
+                </div>
+
+                <!-- OTC Medicine -->
+                <div style="margin-bottom: 48px;">
+                    <h3 style="font-size: 20px; margin-bottom: 16px;">市販薬の選び方</h3>
+                    <p style="color: #6b7280; margin-bottom: 24px;">症状に合わせて適切な市販薬を選びましょう</p>
+                    
+                    <div class="prevention-grid">
+                        <div class="prevention-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">🌡️</div>
+                            <div class="prevention-title">発熱・痛み</div>
+                            <div class="prevention-desc">
+                                <strong>解熱鎮痛薬：</strong><br>
+                                • アセトアミノフェン<br>
+                                • イブプロフェン<br>
+                                • ロキソプロフェン<br><br>
+                                
+                                ※空腹時の服用は避けてください
+                            </div>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">👃</div>
+                            <div class="prevention-title">鼻水・鼻づまり</div>
+                            <div class="prevention-desc">
+                                <strong>アレルギー性鼻炎の薬：</strong><br>
+                                • 抗ヒスタミン薬（第2世代）<br>
+                                • 鼻炎用内服薬<br><br>
+                                
+                                ※効能適応外ですが、症状緩和に用いられます
+                            </div>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">😷</div>
+                            <div class="prevention-title">咳・痰</div>
+                            <div class="prevention-desc">
+                                <strong>咳止め・去痰薬：</strong><br>
+                                • メジコン（咳止め）<br>
+                                • ムコダイン（去痰薬）<br><br>
+                                
+                                ※咳が2週間以上続く場合は受診を
+                            </div>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">💊</div>
+                            <div class="prevention-title">のどの痛み</div>
+                            <div class="prevention-desc">
+                                <strong>のどの痛みに：</strong><br>
+                                • トラネキサム酸<br>
+                                • のどスプレー・トローチ<br>
+                                • うがい薬<br><br>
+                                
+                                ※痛みが強い場合は解熱鎮痛薬も併用
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Antibiotics -->
+                <div style="margin-bottom: 48px;">
+                    <h3 style="font-size: 20px; margin-bottom: 16px;">抗菌薬（抗生物質）について</h3>
+                    <p style="color: #6b7280; margin-bottom: 24px;">風邪にはほとんどの場合、抗菌薬は不要です</p>
+                    
+                    <div class="prevention-card" style="background: white; max-width: 100%;">
+                        <div class="prevention-title">実は抗菌薬の使用は推奨されていない！</div>
+                        <div class="prevention-desc" style="line-height: 2;">
+                            <strong>風邪（急性気道感染症）の約90%はウイルス性です。</strong><br>
+                            抗菌薬（抗生物質）はウイルスには効果がありません。<br><br>
+                            
+                            <strong>ただし：</strong><br>
+                            ① 急性咽頭炎で咽頭の検査をして溶連菌が検出されれば、抗菌薬OK<br>
+                            ② 急性気管支炎を疑う場合、レントゲン検査を行った上で、抗菌薬の使用の検討を行う<br><br>
+                            
+                            <span style="color: #dc2626; font-weight: bold;">むやみに抗菌薬を使うと、薬剤耐性菌が増える原因になります。</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recovery Tips -->
+                <div>
+                    <h3 style="font-size: 20px; margin-bottom: 16px;">早く治すためのポイント</h3>
+                    
+                    <div class="case-grid">
+                        <div class="case-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">💧</div>
+                            <div class="case-title">十分な水分補給</div>
+                            <div class="case-comparison">
+                                水、お茶、スープなどで水分を補給しましょう。発熱時は特に重要です。
+                            </div>
+                        </div>
+
+                        <div class="case-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">😴</div>
+                            <div class="case-title">十分な休息と睡眠</div>
+                            <div class="case-comparison">
+                                無理をせず、体を休めることが最も重要です。睡眠をしっかり取りましょう。
+                            </div>
+                        </div>
+
+                        <div class="case-card">
+                            <div style="font-size: 48px; margin-bottom: 16px;">🏠</div>
+                            <div class="case-title">職場復帰の目安</div>
+                            <div class="case-comparison">
+                                熱が下がってから24時間以上経過し、咳やくしゃみが落ち着いてから復帰しましょう。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Videos -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>関連動画</h2>
+            <p class="section-subtitle">風邪について学べる動画</p>
+            
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">🎬</span>
+                        <span class="video-duration">0:45</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #fef3c7; color: #d97706;">2次予防</span>
+                        </div>
+                        <div class="video-title">風邪の受診目安、3つのサイン</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">🎬</span>
+                        <span class="video-duration">0:50</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #dcfce7; color: #16a34a;">1次予防</span>
+                        </div>
+                        <div class="video-title">風邪を引かない体づくり</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">🎬</span>
+                        <span class="video-duration">3:20</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">解説動画</span>
+                            <span class="badge-category">症状</span>
+                        </div>
+                        <div class="video-title">抗菌薬が効かない理由</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References -->
+    <section>
+        <div class="container">
+            <div class="prevention-card" style="max-width: 900px; margin: 0 auto;">
+                <div class="prevention-title">📚 参考文献・出典</div>
+                <div class="prevention-desc" style="line-height: 2;">
+                    • 厚生労働省「抗菌薬の適正使用」<br>
+                    • 日本感染症学会「抗微生物薬適正使用の手引き」<br>
+                    • 日本呼吸器学会「咳嗽に関するガイドライン」<br>
+                    • 日本耳鼻咽喉科学会「急性鼻副鼻腔炎診療ガイドライン」<br><br>
+                    
+                    最終更新日: 2025年3月
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <section style="background: white;">
+        <div class="container">
+            <div class="disclaimer">
+                <div class="disclaimer-title">⚠️ 免責事項</div>
+                <div class="disclaimer-text">
+                    このページで提供される情報は、医療行為ではありません。診療ガイドラインに準拠した一般的な情報を提供するものであり、個別の診断や治療を目的としたものではありません。気になる症状がある場合や、医療についてご不安がある場合は、必ず医療機関を受診してください。また、市販薬を使用する際は、薬剤師にご相談ください。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="/about.html">医療のカラクリとは</a></li>
+                        <li><a href="/symptoms/">症状から探す</a></li>
+                        <li><a href="/prevention/">予防レベルで学ぶ</a></li>
+                        <li><a href="/cases/">ケーススタディ</a></li>
+                        <li><a href="/library/">図解・動画</a></li>
+                        <li><a href="/faq.html">医療費Q&A</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>その他の症状</h4>
+                    <ul>
+                        <li><a href="/symptoms/headache.html">頭痛</a></li>
+                        <li><a href="/symptoms/allergy.html">花粉症</a></li>
+                        <li><a href="/symptoms/stomach.html">腹痛・便秘</a></li>
+                        <li><a href="/symptoms/mental.html">メンタルヘルス</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>情報</h4>
+                    <ul>
+                        <li><a href="#">制作ポリシー</a></li>
+                        <li><a href="#">免責事項</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>SNS</h4>
+                    <div style="display: flex; gap: 16px; margin-top: 8px;">
+                        <a href="#" style="font-size: 24px;">📺</a>
+                        <a href="#" style="font-size: 24px;">📷</a>
+                        <a href="#" style="font-size: 24px;">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 医療のカラクリ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Bar -->
+    <div class="mobile-bottom-bar">
+        <div class="mobile-bottom-bar-grid">
+            <a href="/symptoms/" class="mobile-bottom-btn" style="color: #2563eb;">
+                <span style="font-size: 20px;">⚡</span>
+                <span>症状</span>
+            </a>
+            <a href="/prevention/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">🎯</span>
+                <span>予防</span>
+            </a>
+            <a href="/library/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">📊</span>
+                <span>図解・動画</span>
+            </a>
+            <a href="/cases/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">💡</span>
+                <span>ケース</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
+

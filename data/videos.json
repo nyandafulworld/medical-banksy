@@ -1,0 +1,75 @@
+[
+  {
+    "id": "001",
+    "title": "風邪の受診目安、3つのサイン",
+    "youtube_id": "SAMPLE_VIDEO_001",
+    "thumbnail": "images/thumbnails/001.jpg",
+    "duration": "0:45",
+    "type": "ショート動画",
+    "category": "症状",
+    "tags": ["風邪", "受診の目安"],
+    "prevention_level": "2次予防",
+    "views": 102000,
+    "published_date": "2025-03-15",
+    "platforms": {
+      "youtube": "https://youtube.com/shorts/SAMPLE",
+      "instagram": "https://instagram.com/reel/SAMPLE",
+      "tiktok": "https://tiktok.com/@medical-banksy/SAMPLE"
+    }
+  },
+  {
+    "id": "002",
+    "title": "市販の痛み止め、どう選ぶ？",
+    "youtube_id": "SAMPLE_VIDEO_002",
+    "thumbnail": "images/thumbnails/002.jpg",
+    "duration": "0:50",
+    "type": "ショート動画",
+    "category": "薬",
+    "tags": ["市販薬", "痛み止め", "選び方"],
+    "prevention_level": "3次予防",
+    "views": 85000,
+    "published_date": "2025-03-12",
+    "platforms": {
+      "youtube": "https://youtube.com/shorts/SAMPLE",
+      "instagram": "https://instagram.com/reel/SAMPLE",
+      "tiktok": "https://tiktok.com/@medical-banksy/SAMPLE"
+    }
+  },
+  {
+    "id": "003",
+    "title": "0次予防って何？30秒で解説",
+    "youtube_id": "SAMPLE_VIDEO_003",
+    "thumbnail": "images/thumbnails/003.jpg",
+    "duration": "0:30",
+    "type": "ショート動画",
+    "category": "予防",
+    "tags": ["0次予防", "予防医療"],
+    "prevention_level": "0次予防",
+    "views": 120000,
+    "published_date": "2025-03-10",
+    "platforms": {
+      "youtube": "https://youtube.com/shorts/SAMPLE",
+      "instagram": "https://instagram.com/reel/SAMPLE",
+      "tiktok": "https://tiktok.com/@medical-banksy/SAMPLE"
+    }
+  },
+  {
+    "id": "004",
+    "title": "花粉症の薬、ガイドラインではどう選ぶ？",
+    "youtube_id": "SAMPLE_VIDEO_004",
+    "thumbnail": "images/thumbnails/004.jpg",
+    "duration": "3:20",
+    "type": "解説動画",
+    "category": "症状",
+    "tags": ["花粉症", "市販薬", "ガイドライン"],
+    "prevention_level": "2次予防",
+    "views": 65000,
+    "published_date": "2025-03-08",
+    "platforms": {
+      "youtube": "https://youtube.com/watch?v=SAMPLE",
+      "instagram": null,
+      "tiktok": null
+    }
+  }
+]
+

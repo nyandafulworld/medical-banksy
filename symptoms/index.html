@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://medical-banksy.miakiss.com/">
+    <title>症状から探す | 医療のカラクリ</title>
+    <meta name="description" content="風邪、頭痛、花粉症、腹痛など、症状別に受診の目安やセルフケアの方法をガイドラインに基づいて解説します。">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="/" style="text-decoration: none; color: inherit;">医療のカラクリ</a></div>
+            
+            <nav id="desktopNav">
+                <a href="/about.html">医療のカラクリとは</a>
+                <a href="/cases/">ケーススタディ</a>
+                <a href="/symptoms/" style="color: #2563eb;">症状から探す</a>
+                <a href="/prevention/">予防レベルで学ぶ</a>
+                <a href="/library/">図解・動画</a>
+                <a href="/faq.html">医療費Q&A</a>
+            </nav>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/about.html">医療のカラクリとは</a>
+            <a href="/cases/">ケーススタディ</a>
+            <a href="/symptoms/">症状から探す</a>
+            <a href="/prevention/">予防レベルで学ぶ</a>
+            <a href="/library/">図解・動画</a>
+            <a href="/faq.html">医療費Q&A</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">Symptoms Guide</div>
+            <h1>症状から探す</h1>
+            <p class="hero-subtitle">今困っている症状から、受診の目安やセルフケアの方法を見つけましょう</p>
+        </div>
+    </section>
+
+    <!-- Symptoms Grid -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>症状一覧</h2>
+            <p class="section-subtitle">症状を選んでください</p>
+            
+            <div class="symptom-nav">
+                <a href="/symptoms/cold.html" class="symptom-button">
+                    <div class="symptom-button-icon">🤒</div>
+                    <div class="symptom-button-title">風邪・発熱</div>
+                    <div class="symptom-button-desc">咳、のどの痛み、発熱、鼻水</div>
+                </a>
+
+                <a href="/symptoms/headache.html" class="symptom-button">
+                    <div class="symptom-button-icon">🤕</div>
+                    <div class="symptom-button-title">頭痛</div>
+                    <div class="symptom-button-desc">頭の痛み、片頭痛、緊張型頭痛</div>
+                </a>
+
+                <a href="/symptoms/allergy.html" class="symptom-button">
+                    <div class="symptom-button-icon">🌸</div>
+                    <div class="symptom-button-title">花粉症</div>
+                    <div class="symptom-button-desc">くしゃみ、鼻水、目のかゆみ</div>
+                </a>
+
+                <a href="/symptoms/stomach.html" class="symptom-button">
+                    <div class="symptom-button-icon">🤢</div>
+                    <div class="symptom-button-title">腹痛・便秘</div>
+                    <div class="symptom-button-desc">お腹の不調、下痢、便秘</div>
+                </a>
+
+                <a href="/symptoms/mental.html" class="symptom-button">
+                    <div class="symptom-button-icon">🧠</div>
+                    <div class="symptom-button-title">メンタルヘルス</div>
+                    <div class="symptom-button-desc">ストレス、不安、不眠、うつ</div>
+                </a>
+
+                <a href="/symptoms/pain.html" class="symptom-button">
+                    <div class="symptom-button-icon">⚡</div>
+                    <div class="symptom-button-title">痛みについて</div>
+                    <div class="symptom-button-desc">痛み止めの選び方と使い方</div>
+                </a>
+
+                <a href="/symptoms/lifestyle.html" class="symptom-button">
+                    <div class="symptom-button-icon">🏃</div>
+                    <div class="symptom-button-title">生活習慣病</div>
+                    <div class="symptom-button-desc">高血圧、糖尿病、脂質異常症</div>
+                </a>
+
+                <a href="/symptoms/skin.html" class="symptom-button">
+                    <div class="symptom-button-icon">🩹</div>
+                    <div class="symptom-button-title">皮膚トラブル</div>
+                    <div class="symptom-button-desc">湿疹、かゆみ、乾燥</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <section style="background: white;">
+        <div class="container">
+            <div class="disclaimer">
+                <div class="disclaimer-title">⚠️ 免責事項</div>
+                <div class="disclaimer-text">
+                    このサイトで提供される情報は、医療行為ではありません。診療ガイドラインに準拠した一般的な情報を提供するものであり、個別の診断や治療を目的としたものではありません。気になる症状がある場合や、医療についてご不安がある場合は、必ず医療機関を受診してください。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="/about.html">医療のカラクリとは</a></li>
+                        <li><a href="/symptoms/">症状から探す</a></li>
+                        <li><a href="/prevention/">予防レベルで学ぶ</a></li>
+                        <li><a href="/cases/">ケーススタディ</a></li>
+                        <li><a href="/library/">図解・動画</a></li>
+                        <li><a href="/faq.html">医療費Q&A</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>情報</h4>
+                    <ul>
+                        <li><a href="#">制作ポリシー</a></li>
+                        <li><a href="#">免責事項</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>運営</h4>
+                    <ul>
+                        <li><a href="#">運営情報</a></li>
+                        <li><a href="#">監修医師</a></li>
+                        <li><a href="#">参加する</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>SNS</h4>
+                    <div style="display: flex; gap: 16px; margin-top: 8px;">
+                        <a href="#" style="font-size: 24px;">📺</a>
+                        <a href="#" style="font-size: 24px;">📷</a>
+                        <a href="#" style="font-size: 24px;">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 医療のカラクリ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Bar -->
+    <div class="mobile-bottom-bar">
+        <div class="mobile-bottom-bar-grid">
+            <a href="/symptoms/" class="mobile-bottom-btn" style="color: #2563eb;">
+                <span style="font-size: 20px;">⚡</span>
+                <span>症状</span>
+            </a>
+            <a href="/prevention/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">🎯</span>
+                <span>予防</span>
+            </a>
+            <a href="/library/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">📊</span>
+                <span>図解・動画</span>
+            </a>
+            <a href="/cases/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">💡</span>
+                <span>ケース</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
+

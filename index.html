@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://medical-banksy.miakiss.com/">
+    <title>医療のカラクリ：国民の医療リテラシー向上と医療費削減を目指して</title>
+    <meta name="description" content="診療ガイドライン準拠の信頼できる医療情報で、あなたの医療リテラシーを高め、適切な受診判断と医療費削減をサポートします。0次予防から3次予防まで、セルフケアを中心とした健康管理を学びましょう。">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="/" style="text-decoration: none; color: inherit;">医療のカラクリ</a></div>
+            
+            <nav id="desktopNav">
+                <a href="/about.html">医療のカラクリとは</a>
+                <a href="/prevention/">予防レベルで学ぶ</a>
+                <a href="/symptoms/">症状から探す</a>
+                <a href="/cases/">ケーススタディ</a>
+                <a href="/library/">図解・動画</a>
+                <a href="/faq.html">医療費Q&A</a>
+            </nav>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/about.html">医療のカラクリとは</a>
+            <a href="/prevention/">予防レベルで学ぶ</a>
+            <a href="/symptoms/">症状から探す</a>
+            <a href="/cases/">ケーススタディ</a>
+            <a href="/library/">図解・動画</a>
+            <a href="/faq.html">医療費Q&A</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">国民の医療リテラシー向上プロジェクト</div>
+            <h1>知ることで変わる、<br>あなたの健康と医療費</h1>
+            <p class="hero-subtitle">診療ガイドライン等に準拠した信頼できる医療情報をもとに、<br>あなたの医療リテラシーを高めます。<br>そして、賢い医療の選択をサポートし、日本の医療費削減にも貢献します。</p>
+            
+            <div class="hero-pillars">
+                <div class="pillar-card">
+                    <div class="pillar-icon">📚</div>
+                    <div class="pillar-title">医療リテラシー向上</div>
+                    <div class="pillar-desc">正しい知識で適切な判断を</div>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-icon">💰</div>
+                    <div class="pillar-title">医療費削減</div>
+                    <div class="pillar-desc">国民が知ることで政治を動かす</div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="/about.html" class="btn-primary">医療のカラクリとは</a>
+                <a href="/prevention/" class="btn-secondary">予防レベルで学ぶ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prevention Levels -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>予防レベルで学ぶ</h2>
+            <p class="section-subtitle">0次予防から3次予防まで、体質を知り、病気を防ぎ、上手に治すための知識</p>
+            
+            <div class="prevention-grid">
+                <a href="/prevention/level-0.html" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #dbeafe; color: #2563eb;">0次予防</div>
+                    <div class="prevention-title">自分を知る</div>
+                    <div class="prevention-desc">自分の体質や家族歴を知って、なりやすい病気を理解しましょう</div>
+                    <div class="prevention-topics">
+                        <span class="topic-tag">家族歴チェック</span>
+                        <span class="topic-tag">生活習慣チェック</span>
+                        <span class="topic-tag">自律神経</span>
+                        <span class="topic-tag">ストレス脆弱性</span>
+                    </div>
+                </a>
+
+                <a href="/prevention/level-1.html" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #dcfce7; color: #16a34a;">1次予防</div>
+                    <div class="prevention-title">病気を防ぐ</div>
+                    <div class="prevention-desc">食事・運動・睡眠・ストレス管理で病気にならない体づくり</div>
+                    <div class="prevention-topics">
+                        <span class="topic-tag">食事・栄養</span>
+                        <span class="topic-tag">運動</span>
+                        <span class="topic-tag">ストレス対策</span>
+                        <span class="topic-tag">睡眠</span>
+                    </div>
+                </a>
+
+                <a href="/prevention/level-2.html" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #fef3c7; color: #d97706;">2次予防</div>
+                    <div class="prevention-title">早く気づく</div>
+                    <div class="prevention-desc">セルフチェックや受診の目安で、病気を早期発見しましょう</div>
+                    <div class="prevention-topics">
+                        <span class="topic-tag">セルフチェック</span>
+                        <span class="topic-tag">受診の目安</span>
+                        <span class="topic-tag">健康診断</span>
+                    </div>
+                </a>
+
+                <a href="/prevention/level-3.html" class="prevention-card" style="text-decoration: none;">
+                    <div class="prevention-level" style="background: #fecaca; color: #dc2626;">3次予防</div>
+                    <div class="prevention-title">上手に治す</div>
+                    <div class="prevention-desc">適切な受診、市販薬の選び方、リハビリで悪化を防ぎます</div>
+                    <div class="prevention-topics">
+                        <span class="topic-tag">市販薬の選び方</span>
+                        <span class="topic-tag">受診タイミング</span>
+                        <span class="topic-tag">リハビリ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/prevention/" class="btn-primary">予防レベルをもっと学ぶ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Symptom Navigation -->
+    <section>
+        <div class="container">
+            <h2>症状から探す</h2>
+            <p class="section-subtitle">今困っている症状から、受診の目安やセルフケアの方法を見つけましょう</p>
+            
+            <div class="symptom-nav">
+                <a href="/symptoms/cold.html" class="symptom-button">
+                    <div class="symptom-button-icon">🤒</div>
+                    <div class="symptom-button-title">風邪・発熱</div>
+                    <div class="symptom-button-desc">咳、のどの痛み、発熱</div>
+                </a>
+
+                <a href="/symptoms/headache.html" class="symptom-button">
+                    <div class="symptom-button-icon">🤕</div>
+                    <div class="symptom-button-title">頭痛</div>
+                    <div class="symptom-button-desc">頭の痛み、片頭痛</div>
+                </a>
+
+                <a href="/symptoms/allergy.html" class="symptom-button">
+                    <div class="symptom-button-icon">🌸</div>
+                    <div class="symptom-button-title">花粉症</div>
+                    <div class="symptom-button-desc">くしゃみ、鼻水、目のかゆみ</div>
+                </a>
+
+                <a href="/symptoms/stomach.html" class="symptom-button">
+                    <div class="symptom-button-icon">🤢</div>
+                    <div class="symptom-button-title">腹痛・便秘</div>
+                    <div class="symptom-button-desc">お腹の不調、腸活</div>
+                </a>
+
+                <a href="/symptoms/mental.html" class="symptom-button">
+                    <div class="symptom-button-icon">🧠</div>
+                    <div class="symptom-button-title">メンタルヘルス</div>
+                    <div class="symptom-button-desc">ストレス、不安、不眠</div>
+                </a>
+
+                <a href="/symptoms/pain.html" class="symptom-button">
+                    <div class="symptom-button-icon">⚡</div>
+                    <div class="symptom-button-title">痛みについて</div>
+                    <div class="symptom-button-desc">痛み止めの選び方</div>
+                </a>
+
+                <a href="/symptoms/lifestyle.html" class="symptom-button">
+                    <div class="symptom-button-icon">🏃</div>
+                    <div class="symptom-button-title">生活習慣病</div>
+                    <div class="symptom-button-desc">高血圧、糖尿病など</div>
+                </a>
+
+                <a href="/symptoms/" class="symptom-button">
+                    <div class="symptom-button-icon">❓</div>
+                    <div class="symptom-button-title">受診の目安</div>
+                    <div class="symptom-button-desc">いつ病院に行くべき？</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>ケーススタディ</h2>
+            <p class="section-subtitle">正しい知識で、ムダな出費を減らし、セルフケアに自信が持てます</p>
+            
+            <div class="case-grid">
+                <!-- 風邪カード -->
+                <div class="case-card">
+                    <div class="savings-badge">💰 約2,500円お得！（自己負担 約40%減）</div>
+                    <div class="case-title">風邪症状で毎回すぐ受診 → まず市販薬でセルフケア＋必要時に受診へ</div>
+                    
+                    <!-- 棒グラフ -->
+                    <div class="case-bar-chart">
+                        <div class="case-bar">
+                            <span class="case-bar-label">Before</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill before" style="width: 100%;">約6,000円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">受診3回、自己負担の目安 約6,000円※1</div>
+                        <div class="case-bar">
+                            <span class="case-bar-label">After</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill after" style="width: 58%;">約3,500円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">市販薬＋受診1回、自己負担の目安 約3,500円※1</div>
+                    </div>
+                    <div class="case-note">
+                        <div class="case-note-title">※1 計算根拠（一般的な例）</div>
+                        ・対象：70歳未満・自己負担3割、平日昼間に診療所を受診。検査や注射なし、院外処方を想定。<br>
+                        ・医療機関での診療＋処方箋の費用は、厚生労働省「医科診療報酬点数表」令和6年度版の初診料291点、再診料75点、処方箋料60点をもとに、患者の自己負担は1回あたり約1,000円前後と試算。<br>
+                        ・薬局での技術料や薬剤費なども加味し、「診察＋薬局＋薬代」を含む自己負担額を1回の受診あたり約2,000円と仮定。<br>
+                        ・Before：2,000円 × 3回 ＝ 約6,000円<br>
+                        ・After：市販薬1,500円 ＋ 受診1回2,000円 ＝ 約3,500円<br>
+                        ・実際の費用は、症状の重さ、検査の有無、薬の種類、医療機関・薬局によって大きく変動します。
+                    </div>
+                    <div class="case-note-warning">
+                        ⚠️ 高熱や強いだるさ、息苦しさ、持病の悪化などがある場合は、自己判断で受診を控えず、早めに医師に相談してください。
+                    </div>
+                    <a href="/cases/case-001.html" class="btn-text" style="font-size: 14px; margin-top: 12px; display: inline-block;">詳しく見る →</a>
+                </div>
+
+                <!-- 頭痛カード -->
+                <div class="case-card">
+                    <div class="savings-badge">💰 約6,000円お得！（自己負担 約60%減）</div>
+                    <div class="case-title">頭痛が出るたび受診 → まず市販薬で様子を見て、必要なときだけ受診</div>
+                    
+                    <!-- 棒グラフ -->
+                    <div class="case-bar-chart">
+                        <div class="case-bar">
+                            <span class="case-bar-label">Before</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill before" style="width: 100%;">約10,000円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">受診5回、自己負担の目安 約10,000円※1</div>
+                        <div class="case-bar">
+                            <span class="case-bar-label">After</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill after" style="width: 40%;">約4,000円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">市販薬＋受診1回、自己負担の目安 約4,000円※1</div>
+                    </div>
+                    <div class="case-note">
+                        <div class="case-note-title">※1 計算根拠（一般的な例）</div>
+                        ・対象：70歳未満・自己負担3割、平日昼間に診療所を受診。検査や注射なし、院外処方を想定。<br>
+                        ・医療機関での診療＋処方箋の費用は、厚生労働省「医科診療報酬点数表」令和6年度版の初診料291点、再診料75点、処方箋料60点をもとに、薬局の技術料・薬剤費の目安を加えて、1回の受診あたりの自己負担を約2,000円と仮定。<br>
+                        ・市販の頭痛薬は1箱1,000〜2,000円程度で複数回分使えるため、5回分で合計約2,000円と仮定。<br>
+                        ・Before：頭痛のたびに受診5回 → 2,000円 × 5回 ＝ 約10,000円<br>
+                        ・After：市販薬で4回分セルフケアし、警告症状があるときだけ受診1回 → 市販薬 約2,000円 ＋ 受診1回 約2,000円 ＝ 約4,000円<br>
+                        ・実際の費用は、症状の重さ、検査の有無（CT・MRI など）、薬の種類、医療機関・薬局によって大きく変動します。
+                    </div>
+                    <div class="case-note-warning">
+                        ⚠️ 突然の激しい頭痛、ろれつが回らない、手足のしびれや麻痺、意識がおかしい等の症状がある場合は、市販薬に頼らず、すぐに医療機関を受診してください。
+                    </div>
+                    <a href="/cases/case-002.html" class="btn-text" style="font-size: 14px; margin-top: 12px; display: inline-block;">詳しく見る →</a>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/cases/" class="btn-primary">もっとケーススタディを見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>社会保障を守るのは、あなたの医療リテラシーです</h2>
+                    <p class="section-subtitle" style="margin-bottom: 0;">SNSで話題の最新ショート動画</p>
+                </div>
+                <a href="/library/videos.html" class="btn-text">もっと見る →</a>
+            </div>
+
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZCQ3AWIBqfM?si=Ev_-HAxu27f9V5XH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #fef3c7; color: #d97706;">2次予防</span>
+                        </div>
+                        <div class="video-title">社会保障のカラクリ</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 10.2万回</span>
+                            <span>📅 2025.03.15</span>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=ZCQ3AWIBqfM" target="_blank" class="btn-text" style="font-size: 14px;">YouTubeで見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">💊</span>
+                        <span class="video-duration">0:50</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #fecaca; color: #dc2626;">3次予防</span>
+                        </div>
+                        <div class="video-title">市販の痛み止め、どう選ぶ？</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 8.5万回</span>
+                            <span>📅 2025.03.12</span>
+                        </div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <span style="font-size: 64px; color: white;">🎯</span>
+                        <span class="video-duration">0:30</span>
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-badges">
+                            <span class="badge">ショート動画</span>
+                            <span class="badge-level" style="background: #dbeafe; color: #2563eb;">0次予防</span>
+                        </div>
+                        <div class="video-title">0次予防って何？30秒で解説</div>
+                        <div class="video-meta">
+                            <span>📺 YouTube</span>
+                            <span>👁️ 12.0万回</span>
+                            <span>📅 2025.03.10</span>
+                        </div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">動画を見る →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Library -->
+    <section style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>図解ライブラリ</h2>
+                    <p class="section-subtitle" style="margin-bottom: 0;">30秒で要点をつかめる図解コンテンツ</p>
+                </div>
+                <a href="/library/" class="btn-text">もっと見る →</a>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                        <span class="card-badge">新着</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span style="font-size: 12px; color: #6b7280;">症状</span>
+                        </div>
+                        <div class="card-title">風邪の症状、受診の目安は?</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span style="font-size: 12px; color: #6b7280;">薬</span>
+                        </div>
+                        <div class="card-title">花粉症の市販薬の選び方</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span style="font-size: 12px; color: #6b7280;">予防</span>
+                        </div>
+                        <div class="card-title">医療費を抑える5つのコツ</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <span style="font-size: 48px;">📊</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-labels">
+                            <span class="badge">図解</span>
+                            <span style="font-size: 12px; color: #6b7280;">予防</span>
+                        </div>
+                        <div class="card-title">0次予防から3次予防まで</div>
+                        <a href="#" class="btn-text" style="font-size: 14px;">30秒で要点 →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section>
+        <div class="container">
+            <h2>ニュース & ガイドライン更新</h2>
+            
+            <div class="news-list">
+                <div class="news-item">
+                    <div class="news-header">
+                        <span class="badge">ガイドライン</span>
+                        <span style="font-size: 12px; color: #6b7280;">2025.03.15</span>
+                    </div>
+                    <div class="news-title">2025年版 花粉症診療ガイドライン解説</div>
+                    <div class="news-summary">最新の花粉症治療の考え方をやさしく解説します。出典: 日本アレルギー学会「鼻アレルギー診療ガイドライン2025年版」</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <span class="badge">解説</span>
+                        <span style="font-size: 12px; color: #6b7280;">2025.03.10</span>
+                    </div>
+                    <div class="news-title">市販の風邪薬、選び方のポイント</div>
+                    <div class="news-summary">症状別に適した市販薬の選び方を図解で紹介。出典: 厚生労働省「抗菌薬の適正使用」資料</div>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-header">
+                        <span class="badge">解説</span>
+                        <span style="font-size: 12px; color: #6b7280;">2025.03.05</span>
+                    </div>
+                    <div class="news-title">受診のタイミング、迷ったときは？</div>
+                    <div class="news-summary">すぐ受診すべき症状と様子を見てよい症状の見分け方。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <section style="background: white;">
+        <div class="container">
+            <div class="disclaimer">
+                <div class="disclaimer-title">⚠️ 免責事項</div>
+                <div class="disclaimer-text">
+                    このサイトで提供される情報は、医療行為ではありません。診療ガイドラインに準拠した一般的な情報を提供するものであり、個別の診断や治療を目的としたものではありません。気になる症状がある場合や、医療についてご不安がある場合は、必ず医療機関を受診してください。また、市販薬を使用する際は、薬剤師にご相談ください。<br><br>
+                    本サイトの情報は、各医療関連学会が発行する診療ガイドラインおよび厚生労働省の公開資料に基づいています。情報は定期的に更新していますが、最新の医療情報については、必ず医療機関にご確認ください。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="/about.html">医療のカラクリとは</a></li>
+                        <li><a href="/symptoms/">症状から探す</a></li>
+                        <li><a href="/prevention/">予防レベルで学ぶ</a></li>
+                        <li><a href="/cases/">ケーススタディ</a></li>
+                        <li><a href="/library/">図解・動画</a></li>
+                        <li><a href="/faq.html">医療費Q&A</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>情報</h4>
+                    <ul>
+                        <li><a href="#">制作ポリシー</a></li>
+                        <li><a href="#">免責事項</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>運営</h4>
+                    <ul>
+                        <li><a href="#">運営情報</a></li>
+                        <li><a href="#">監修医師</a></li>
+                        <li><a href="#">参加する</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>SNS</h4>
+                    <div style="display: flex; gap: 16px; margin-top: 8px;">
+                        <a href="#" style="font-size: 24px;">📺</a>
+                        <a href="#" style="font-size: 24px;">📷</a>
+                        <a href="#" style="font-size: 24px;">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 医療のカラクリ. All rights reserved.</p>
+                <p style="margin-top: 8px; font-size: 12px;">本サイトは診療ガイドラインに準拠した医療情報を提供していますが、医療行為ではありません。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Bar -->
+    <div class="mobile-bottom-bar">
+        <div class="mobile-bottom-bar-grid">
+            <a href="/prevention/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">🎯</span>
+                <span>予防</span>
+            </a>
+            <a href="/symptoms/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">⚡</span>
+                <span>症状</span>
+            </a>
+            <a href="/cases/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">💡</span>
+                <span>ケース</span>
+            </a>
+            <a href="/library/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">📊</span>
+                <span>図解・動画</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

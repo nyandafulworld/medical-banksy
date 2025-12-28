@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://medical-banksy.miakiss.com/">
+    <title>ケーススタディ | 医療のカラクリ</title>
+    <meta name="description" content="正しい医療知識で医療費を抑えつつ、セルフケアで安心して過ごせた実例を紹介。具体的な費用の計算根拠も掲載しています。">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="/" style="text-decoration: none; color: inherit;">医療のカラクリ</a></div>
+            
+            <nav id="desktopNav">
+                <a href="/about.html">医療のカラクリとは</a>
+                <a href="/cases/" style="color: #2563eb;">ケーススタディ</a>
+                <a href="/symptoms/">症状から探す</a>
+                <a href="/prevention/">予防レベルで学ぶ</a>
+                <a href="/library/">図解・動画</a>
+                <a href="/faq.html">医療費Q&A</a>
+            </nav>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/about.html">医療のカラクリとは</a>
+            <a href="/cases/">ケーススタディ</a>
+            <a href="/symptoms/">症状から探す</a>
+            <a href="/prevention/">予防レベルで学ぶ</a>
+            <a href="/library/">図解・動画</a>
+            <a href="/faq.html">医療費Q&A</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+        <div class="hero-container">
+            <div class="hero-badge">Case Studies</div>
+            <h1>💡 ケーススタディ</h1>
+            <p class="hero-subtitle">正しい知識で、ムダな出費を減らし、セルフケアに自信が持てます</p>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>医療リテラシーで変わる医療費と不安の減らし方</h2>
+            <p class="section-subtitle">具体的な事例で、適切な医療の選択がもたらす効果を見てみましょう</p>
+            
+            <div class="prevention-card" style="max-width: 900px; margin: 0 auto;">
+                <div class="prevention-desc" style="font-size: 18px; line-height: 2;">
+                    このページでは、医療リテラシーを高めることで、医療費を抑えながらもセルフケアで安心して過ごせた実例を紹介します。<br><br>
+                    
+                    <strong>重要なポイント：</strong><br>
+                    • 費用削減だけが目的ではありません<br>
+                    • 適切な受診判断により、不安も軽減されます<br>
+                    • 必要な時にはしっかり受診することが前提です<br>
+                    • すべての計算根拠を明示しています
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section>
+        <div class="container">
+            <h2>ケース一覧</h2>
+            
+            <div class="case-grid">
+                <!-- 風邪カード -->
+                <div class="case-card">
+                    <div class="savings-badge">💰 約2,500円お得！（自己負担 約40%減）</div>
+                    <div class="case-title">風邪症状で毎回すぐ受診 → まず市販薬でセルフケア＋必要時に受診へ</div>
+                    
+                    <!-- 棒グラフ -->
+                    <div class="case-bar-chart">
+                        <div class="case-bar">
+                            <span class="case-bar-label">Before</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill before" style="width: 100%;">約6,000円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">受診3回、自己負担の目安 約6,000円※1</div>
+                        <div class="case-bar">
+                            <span class="case-bar-label">After</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill after" style="width: 58%;">約3,500円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">市販薬＋受診1回、自己負担の目安 約3,500円※1</div>
+                    </div>
+                    <div class="case-note">
+                        <strong>学んだこと：</strong><br>
+                        • 風邪の受診目安を理解<br>
+                        • 市販薬の選び方を習得<br>
+                        • 警告症状を知ることで安心<br><br>
+                        
+                        <div class="case-note-title">※1 計算根拠（一般的な例）</div>
+                        ・対象：70歳未満・自己負担3割、平日昼間に診療所を受診。検査や注射なし、院外処方を想定。<br>
+                        ・医療機関での診療＋処方箋の費用は、厚生労働省「医科診療報酬点数表」令和6年度版の初診料291点、再診料75点、処方箋料60点をもとに、患者の自己負担は1回あたり約1,000円前後と試算。<br>
+                        ・薬局での技術料や薬剤費なども加味し、「診察＋薬局＋薬代」を含む自己負担額を1回の受診あたり約2,000円と仮定。<br>
+                        ・Before：2,000円 × 3回 ＝ 約6,000円<br>
+                        ・After：市販薬1,500円 ＋ 受診1回2,000円 ＝ 約3,500円<br>
+                        ・実際の費用は、症状の重さ、検査の有無、薬の種類、医療機関・薬局によって大きく変動します。
+                    </div>
+                    <div class="case-note-warning">
+                        ⚠️ 高熱や強いだるさ、息苦しさ、持病の悪化などがある場合は、自己判断で受診を控えず、早めに医師に相談してください。
+                    </div>
+                    <a href="/cases/case-001.html" class="btn-text" style="font-size: 14px; margin-top: 12px; display: inline-block;">詳しく見る →</a>
+                </div>
+
+                <!-- 頭痛カード -->
+                <div class="case-card">
+                    <div class="savings-badge">💰 約6,000円お得！（自己負担 約60%減）</div>
+                    <div class="case-title">頭痛が出るたび受診 → まず市販薬で様子を見て、必要なときだけ受診</div>
+                    
+                    <!-- 棒グラフ -->
+                    <div class="case-bar-chart">
+                        <div class="case-bar">
+                            <span class="case-bar-label">Before</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill before" style="width: 100%;">約10,000円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">受診5回、自己負担の目安 約10,000円※1</div>
+                        <div class="case-bar">
+                            <span class="case-bar-label">After</span>
+                            <div class="case-bar-track">
+                                <div class="case-bar-fill after" style="width: 40%;">約4,000円</div>
+                            </div>
+                        </div>
+                        <div class="case-bar-desc">市販薬＋受診1回、自己負担の目安 約4,000円※1</div>
+                    </div>
+                    <div class="case-note">
+                        <strong>学んだこと：</strong><br>
+                        • 頭痛のタイプを理解<br>
+                        • 市販の痛み止めの選び方<br>
+                        • すぐ受診すべき頭痛の見分け方<br><br>
+                        
+                        <div class="case-note-title">※1 計算根拠（一般的な例）</div>
+                        ・対象：70歳未満・自己負担3割、平日昼間に診療所を受診。検査や注射なし、院外処方を想定。<br>
+                        ・医療機関での診療＋処方箋の費用は、厚生労働省「医科診療報酬点数表」令和6年度版の初診料291点、再診料75点、処方箋料60点をもとに、薬局の技術料・薬剤費の目安を加えて、1回の受診あたりの自己負担を約2,000円と仮定。<br>
+                        ・市販の頭痛薬は1箱1,000〜2,000円程度で複数回分使えるため、5回分で合計約2,000円と仮定。<br>
+                        ・Before：頭痛のたびに受診5回 → 2,000円 × 5回 ＝ 約10,000円<br>
+                        ・After：市販薬で4回分セルフケアし、警告症状があるときだけ受診1回 → 市販薬 約2,000円 ＋ 受診1回 約2,000円 ＝ 約4,000円<br>
+                        ・実際の費用は、症状の重さ、検査の有無（CT・MRI など）、薬の種類、医療機関・薬局によって大きく変動します。
+                    </div>
+                    <div class="case-note-warning">
+                        ⚠️ 突然の激しい頭痛、ろれつが回らない、手足のしびれや麻痺、意識がおかしい等の症状がある場合は、市販薬に頼らず、すぐに医療機関を受診してください。
+                    </div>
+                    <a href="/cases/case-002.html" class="btn-text" style="font-size: 14px; margin-top: 12px; display: inline-block;">詳しく見る →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Notes -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>ケーススタディを見る際の注意点</h2>
+            
+            <div class="prevention-card" style="max-width: 900px; margin: 0 auto;">
+                <div class="prevention-desc" style="line-height: 2;">
+                    <strong>⚠️ これらのケースは一般的な例です</strong><br><br>
+                    
+                    • 実際の医療費は、地域や医療機関により異なります<br>
+                    • 症状の重さや個人の状態により、適切な対応は異なります<br>
+                    • 警告症状がある場合は、必ず医療機関を受診してください<br>
+                    • 費用削減が目的ではなく、適切な医療の選択が目的です<br>
+                    • 市販薬を使用する際は、薬剤師にご相談ください<br><br>
+                    
+                    <strong>✓ これらのケースから学べること</strong><br><br>
+                    
+                    • 医療リテラシーを高めることの重要性<br>
+                    • 適切な受診判断の方法<br>
+                    • セルフケアの有効性<br>
+                    • 市販薬の適切な選択<br>
+                    • 重複受診の回避
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section>
+        <div class="container" style="text-align: center;">
+            <h2>あなたも医療リテラシーを高めましょう</h2>
+            <p class="section-subtitle">症状別のガイドや予防レベル別の学習で、さらに知識を深めましょう</p>
+            
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;">
+                <a href="/symptoms/" class="btn-primary">症状から探す</a>
+                <a href="/prevention/" class="btn-primary">予防レベルで学ぶ</a>
+                <a href="/library/" class="btn-secondary">図解・動画を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <section style="background: white;">
+        <div class="container">
+            <div class="disclaimer">
+                <div class="disclaimer-title">⚠️ 免責事項</div>
+                <div class="disclaimer-text">
+                    このサイトで提供される情報は、医療行為ではありません。診療ガイドラインに準拠した一般的な情報を提供するものであり、個別の診断や治療を目的としたものではありません。気になる症状がある場合や、医療についてご不安がある場合は、必ず医療機関を受診してください。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="/about.html">医療のカラクリとは</a></li>
+                        <li><a href="/symptoms/">症状から探す</a></li>
+                        <li><a href="/prevention/">予防レベルで学ぶ</a></li>
+                        <li><a href="/cases/">ケーススタディ</a></li>
+                        <li><a href="/library/">図解・動画</a></li>
+                        <li><a href="/faq.html">医療費Q&A</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>情報</h4>
+                    <ul>
+                        <li><a href="#">制作ポリシー</a></li>
+                        <li><a href="#">免責事項</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>運営</h4>
+                    <ul>
+                        <li><a href="#">運営情報</a></li>
+                        <li><a href="#">監修医師</a></li>
+                        <li><a href="#">参加する</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>SNS</h4>
+                    <div style="display: flex; gap: 16px; margin-top: 8px;">
+                        <a href="#" style="font-size: 24px;">📺</a>
+                        <a href="#" style="font-size: 24px;">📷</a>
+                        <a href="#" style="font-size: 24px;">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 医療のカラクリ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Bar -->
+    <div class="mobile-bottom-bar">
+        <div class="mobile-bottom-bar-grid">
+            <a href="/symptoms/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">⚡</span>
+                <span>症状</span>
+            </a>
+            <a href="/prevention/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">🎯</span>
+                <span>予防</span>
+            </a>
+            <a href="/library/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">📊</span>
+                <span>図解・動画</span>
+            </a>
+            <a href="/cases/" class="mobile-bottom-btn" style="color: #2563eb;">
+                <span style="font-size: 20px;">💡</span>
+                <span>ケース</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
+

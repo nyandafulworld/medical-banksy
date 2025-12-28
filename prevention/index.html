@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://medical-banksy.miakiss.com/">
+    <title>予防レベルで学ぶ | 医療のカラクリ</title>
+    <meta name="description" content="0次予防から3次予防まで、体質を知り、病気を防ぎ、上手に治すための医療知識を学びましょう。セルフケアを中心とした健康管理の方法。">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="/" style="text-decoration: none; color: inherit;">医療のカラクリ</a></div>
+            
+            <nav id="desktopNav">
+                <a href="/about.html">医療のカラクリとは</a>
+                <a href="/cases/">ケーススタディ</a>
+                <a href="/symptoms/">症状から探す</a>
+                <a href="/prevention/" style="color: #2563eb;">予防レベルで学ぶ</a>
+                <a href="/library/">図解・動画</a>
+                <a href="/faq.html">医療費Q&A</a>
+            </nav>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/about.html">医療のカラクリとは</a>
+            <a href="/cases/">ケーススタディ</a>
+            <a href="/symptoms/">症状から探す</a>
+            <a href="/prevention/">予防レベルで学ぶ</a>
+            <a href="/library/">図解・動画</a>
+            <a href="/faq.html">医療費Q&A</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);">
+        <div class="hero-container">
+            <div class="hero-badge">Prevention Levels</div>
+            <h1>🎯 予防レベルで学ぶ</h1>
+            <p class="hero-subtitle">0次予防から3次予防まで、体調も医療費も改善する知識を身につけましょう</p>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>予防医療の4つのレベル</h2>
+            <p class="section-subtitle">これまでの病気の予防に「体質を知って取り組む健康づくり」を加えて、さらに健康を増進する</p>
+            
+            <div style="max-width: 1100px; margin: 0 auto;">
+                <img src="../images/prevention-pyramid.png" alt="予防医療のピラミッド" style="width: 100%; height: auto; border-radius: 16px; margin-bottom: 32px; display: none;">
+                
+                <div class="prevention-card">
+                    <div class="prevention-desc" style="font-size: 18px; line-height: 2;">
+                        従来の医療は「病気になってから治す」ことが中心でした。<br>
+                        しかし、本当に大切なのは「病気にならないこと」「病気を早く見つけること」「悪化させないこと」です。<br><br>
+                        
+                        医療のカラクリでは、さらに一歩進んで「自分の体質を知って取り組む健康づくり（0次予防）」を加え、<br>
+                        <strong>0次予防から3次予防まで、4つのレベル</strong>で健康について学べます。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prevention Levels -->
+    <section>
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <!-- 0次予防 -->
+                <div class="prevention-card" style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); margin-bottom: 32px;">
+                    <div class="prevention-level" style="background: #2563eb; color: white; font-size: 18px;">0次予防</div>
+                    <div class="prevention-title" style="font-size: 32px;">自分を知る</div>
+                    <div class="prevention-desc" style="font-size: 18px;">
+                        自分がどのような病気になりやすい体質なのかを知る。<br>
+                        家族歴、生活習慣のチェック、ストレス反応のパターン、自律神経について理解します。
+                    </div>
+                    <div class="prevention-topics" style="margin-top: 24px;">
+                        <span class="topic-tag" style="font-size: 14px;">家族歴チェック</span>
+                        <span class="topic-tag" style="font-size: 14px;">生活習慣チェック</span>
+                        <span class="topic-tag" style="font-size: 14px;">ストレス脆弱性</span>
+                        <span class="topic-tag" style="font-size: 14px;">自律神経</span>
+                    </div>
+                    <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.1);">
+                        <div style="font-weight: bold; margin-bottom: 12px; color: #1e40af;">関連する症状：</div>
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <a href="/symptoms/cold.html#level-0" class="btn-text" style="font-size: 15px;">🤒 風邪・発熱 - 自律神経と免疫力の関係を知る</a>
+                            <a href="/symptoms/mental.html" class="btn-text" style="font-size: 15px;">🧠 メンタルヘルス - ストレス反応のパターンと対処法を知る</a>
+                            <a href="/symptoms/lifestyle.html" class="btn-text" style="font-size: 15px;">🏃 生活習慣病 - 家族歴・体質チェックで将来のリスクを把握</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1次予防 -->
+                <div class="prevention-card" style="background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%); margin-bottom: 32px;">
+                    <div class="prevention-level" style="background: #16a34a; color: white; font-size: 18px;">1次予防</div>
+                    <div class="prevention-title" style="font-size: 32px;">病気を防ぐ</div>
+                    <div class="prevention-desc" style="font-size: 18px;">
+                        病気にならないように気をつける。<br>
+                        食事、運動、睡眠、ストレス管理、予防接種など、日々の生活習慣で健康を守ります。
+                    </div>
+                    <div class="prevention-topics" style="margin-top: 24px;">
+                        <span class="topic-tag" style="font-size: 14px;">食事・栄養</span>
+                        <span class="topic-tag" style="font-size: 14px;">運動・身体活動</span>
+                        <span class="topic-tag" style="font-size: 14px;">ストレス対策</span>
+                        <span class="topic-tag" style="font-size: 14px;">睡眠</span>
+                        <span class="topic-tag" style="font-size: 14px;">予防接種</span>
+                    </div>
+                    <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.1);">
+                        <div style="font-weight: bold; margin-bottom: 12px; color: #166534;">関連する症状：</div>
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <a href="/symptoms/cold.html#level-1" class="btn-text" style="font-size: 15px;">🤒 風邪・発熱 - セルフケアで風邪を予防</a>
+                            <a href="/symptoms/stomach.html" class="btn-text" style="font-size: 15px;">🤢 腹痛・便秘 - 腸活で健康な腸を作る</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2次予防 -->
+                <div class="prevention-card" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); margin-bottom: 32px;">
+                    <div class="prevention-level" style="background: #f59e0b; color: white; font-size: 18px;">2次予防</div>
+                    <div class="prevention-title" style="font-size: 32px;">早く気づく</div>
+                    <div class="prevention-desc" style="font-size: 18px;">
+                        病気がひどくなる前に見つける。<br>
+                        セルフチェック、健康診断、受診の目安を知って、早期発見・早期対応を実現します。
+                    </div>
+                    <div class="prevention-topics" style="margin-top: 24px;">
+                        <span class="topic-tag" style="font-size: 14px;">セルフチェック</span>
+                        <span class="topic-tag" style="font-size: 14px;">受診の目安</span>
+                        <span class="topic-tag" style="font-size: 14px;">健康診断の見方</span>
+                        <span class="topic-tag" style="font-size: 14px;">警告症状</span>
+                    </div>
+                    <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.1);">
+                        <div style="font-weight: bold; margin-bottom: 12px; color: #b45309;">関連する症状：</div>
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <a href="/symptoms/cold.html#level-2" class="btn-text" style="font-size: 15px;">🤒 風邪・発熱 - 受診の目安を知る</a>
+                            <a href="/symptoms/headache.html" class="btn-text" style="font-size: 15px;">🤕 頭痛 - 危険な頭痛の見分け方</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3次予防 -->
+                <div class="prevention-card" style="background: linear-gradient(135deg, #fecaca 0%, #fca5a5 100%);">
+                    <div class="prevention-level" style="background: #dc2626; color: white; font-size: 18px;">3次予防</div>
+                    <div class="prevention-title" style="font-size: 32px;">上手に治す</div>
+                    <div class="prevention-desc" style="font-size: 18px;">
+                        かかってしまった病気の悪化を防ぐ。<br>
+                        適切な受診、市販薬の選び方、リハビリや復職の注意点を学びます。
+                    </div>
+                    <div class="prevention-topics" style="margin-top: 24px;">
+                        <span class="topic-tag" style="font-size: 14px;">市販薬の選び方</span>
+                        <span class="topic-tag" style="font-size: 14px;">適切な受診</span>
+                        <span class="topic-tag" style="font-size: 14px;">リハビリ</span>
+                        <span class="topic-tag" style="font-size: 14px;">復職支援</span>
+                    </div>
+                    <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.1);">
+                        <div style="font-weight: bold; margin-bottom: 12px; color: #b91c1c;">関連する症状：</div>
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <a href="/symptoms/cold.html#level-3" class="btn-text" style="font-size: 15px;">🤒 風邪・発熱 - 市販薬の選び方と抗菌薬の知識</a>
+                            <a href="/symptoms/pain.html" class="btn-text" style="font-size: 15px;">⚡ 痛みについて - 市販薬の適切な選び方</a>
+                            <a href="/symptoms/allergy.html" class="btn-text" style="font-size: 15px;">🌸 花粉症 - OTC薬とガイドライン</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Prevention -->
+    <section style="background: white;">
+        <div class="container">
+            <h2>なぜ予防が大切なのか？</h2>
+            <p class="section-subtitle">予防医療の重要性を数字で見る</p>
+            
+            <div class="case-grid">
+                <div class="case-card">
+                    <div style="font-size: 48px; margin-bottom: 16px;">💰</div>
+                    <div class="case-title">医療費の削減</div>
+                    <div class="case-comparison">
+                        予防により、将来的な医療費を大幅に削減できます。<br><br>
+                        例：生活習慣病の予防で、<br>
+                        年間10万円以上の医療費削減が可能
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div style="font-size: 48px; margin-bottom: 16px;">❤️</div>
+                    <div class="case-title">QOL（生活の質）の向上</div>
+                    <div class="case-comparison">
+                        病気にならないことで、人生をより楽しめます。<br><br>
+                        健康寿命を延ばし、充実した日々を過ごせます
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div style="font-size: 48px; margin-bottom: 16px;">⏱️</div>
+                    <div class="case-title">時間の節約</div>
+                    <div class="case-comparison">
+                        通院や治療にかかる時間を減らせます。<br><br>
+                        その時間を、大切な人や好きなことに使えます
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section style="background: white;">
+        <div class="container" style="text-align: center;">
+            <h2>今日から始める予防医療</h2>
+            <p class="section-subtitle">気になる症状から予防を始めましょう</p>
+            
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;">
+                <a href="/symptoms/" class="btn-primary">症状から探す</a>
+                <a href="/cases/" class="btn-secondary">ケーススタディを見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <section>
+        <div class="container">
+            <div class="disclaimer">
+                <div class="disclaimer-title">⚠️ 免責事項</div>
+                <div class="disclaimer-text">
+                    このサイトで提供される情報は、医療行為ではありません。診療ガイドラインに準拠した一般的な情報を提供するものであり、個別の診断や治療を目的としたものではありません。気になる症状がある場合や、医療についてご不安がある場合は、必ず医療機関を受診してください。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="/about.html">医療のカラクリとは</a></li>
+                        <li><a href="/symptoms/">症状から探す</a></li>
+                        <li><a href="/prevention/">予防レベルで学ぶ</a></li>
+                        <li><a href="/cases/">ケーススタディ</a></li>
+                        <li><a href="/library/">図解・動画</a></li>
+                        <li><a href="/faq.html">医療費Q&A</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>症状から探す</h4>
+                    <ul>
+                        <li><a href="/symptoms/cold.html">風邪・発熱</a></li>
+                        <li><a href="/symptoms/headache.html">頭痛</a></li>
+                        <li><a href="/symptoms/allergy.html">花粉症</a></li>
+                        <li><a href="/symptoms/stomach.html">腹痛・便秘</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>情報</h4>
+                    <ul>
+                        <li><a href="#">制作ポリシー</a></li>
+                        <li><a href="#">免責事項</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>SNS</h4>
+                    <div style="display: flex; gap: 16px; margin-top: 8px;">
+                        <a href="#" style="font-size: 24px;">📺</a>
+                        <a href="#" style="font-size: 24px;">📷</a>
+                        <a href="#" style="font-size: 24px;">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 医療のカラクリ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Bar -->
+    <div class="mobile-bottom-bar">
+        <div class="mobile-bottom-bar-grid">
+            <a href="/symptoms/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">⚡</span>
+                <span>症状</span>
+            </a>
+            <a href="/prevention/" class="mobile-bottom-btn" style="color: #2563eb;">
+                <span style="font-size: 20px;">🎯</span>
+                <span>予防</span>
+            </a>
+            <a href="/library/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">📊</span>
+                <span>図解・動画</span>
+            </a>
+            <a href="/cases/" class="mobile-bottom-btn">
+                <span style="font-size: 20px;">💡</span>
+                <span>ケース</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
